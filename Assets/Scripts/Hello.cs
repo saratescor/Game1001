@@ -8,7 +8,10 @@ public class Hello : MonoBehaviour
     void Start()
     {
         Debug.Log("Hello Word");
-        GetComponent<SpriteRenderer>().color = Color.blue;
+        Color black = Color.black;
+        GetComponent<SpriteRenderer>().color = black;
+
+
         
             
             }
